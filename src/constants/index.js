@@ -20,10 +20,9 @@ import {
   tesla,
   shopify,
   carrent,
-  jobit,
-  tripguide,
   threejs,
-  thirdzone
+  thirdzone,
+  carrent2,
 } from "../assets";
 
 export const navLinks = [
@@ -138,15 +137,16 @@ const testimonials = [
     name: "Jesús Ortiz Paz",
     designation: "Frontman",
     company: "Street Mob Records",
-    image: "https://www.billboard.com/wp-content/uploads/2023/10/Chino-Pacas-press-credit-Street-Mob-Records-2023-billboard-1548.jpg?w=942&h=623&crop=1",
+    image:
+      "https://www.billboard.com/wp-content/uploads/2023/10/Chino-Pacas-press-credit-Street-Mob-Records-2023-billboard-1548.jpg?w=942&h=623&crop=1",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Multi Vendor Ecommerce",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web based multi vendor ecommerce platform that allows users to browse and purchase products from multiple vendors. Along with admin panel and dashboard.",
     tags: [
       {
         name: "react",
@@ -162,48 +162,27 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/JaifDev/multi-vendor-ecom",
   },
   {
-    name: "Job IT",
+    name: "Recipe App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An app that helps you find recipes based on ingredients you have at home.",
     tags: [
       {
-        name: "react",
+        name: "react-native",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "apis",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
+    image: carrent2,
     source_code_link: "https://github.com/",
   },
 ];

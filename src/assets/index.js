@@ -25,11 +25,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import thirdzone from "./company/icon.png"
+import thirdzone from "./company/icon.png";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import carrent2 from "./recipe-app.jpg";
 
 export {
   logo,
@@ -58,7 +57,6 @@ export {
   starbucks,
   tesla,
   carrent,
-  jobit,
-  tripguide,
-  thirdzone
+  thirdzone,
+  carrent2,
 };
