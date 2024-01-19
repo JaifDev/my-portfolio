@@ -23,6 +23,7 @@ import {
   threejs,
   thirdzone,
   carrent2,
+  carrent3,
 } from "../assets";
 
 export const navLinks = [
@@ -183,7 +184,28 @@ const projects = [
       },
     ],
     image: carrent2,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/JaifDev/recipe-app",
+  },
+  {
+    name: "Uber Clone",
+    description:
+      "A ride sharing app with drivers and riders. Both apps are included one for drivers and one for riders.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "aws amplify",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent3,
+    source_code_link: "https://github.com/JaifDev/uber-clone",
   },
 ];
 

@@ -29,6 +29,7 @@ import thirdzone from "./company/icon.png";
 
 import carrent from "./carrent.png";
 import carrent2 from "./recipe-app.jpg";
+import carrent3 from "./uber-clone.jpg";
 
 export {
   logo,
@@ -59,4 +60,5 @@ export {
   carrent,
   thirdzone,
   carrent2,
+  carrent3,
 };
